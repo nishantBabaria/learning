@@ -6,13 +6,13 @@ import com.learning.app.core.di.DefaultAppContainer
 
 class LearningApp : Application() {
 
-    lateinit var container: AppContainer
-        private set
+    val container: AppContainer by lazy {
+        DefaultAppContainer(this)
+    }
 
     override fun onCreate() {
         super.onCreate()
         instance = this
-        container = DefaultAppContainer(this)
     }
 
     companion object {
