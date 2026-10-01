@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Learning</string>
+    <string name="login_title">Learning</string>
+    <string name="login_subtitle">Sign in to access your courses</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_email_error">Please enter a valid email address</string>
+    <string name="login_password_error">Password must be at least 6 characters</string>
+    <string name="dashboard_title">Course Dashboard</string>
+    <string name="dashboard_empty">No courses available.</string>
+    <string name="dashboard_retry">Retry</string>
+    <string name="offline_banner">Network connection offline. Showing cached courses.</string>
+    <string name="instructor_prefix">Instructor: %1$s</string>
+    <string name="progress_format">Progress: %1$d%%</string>
+    <string name="lessons_count_format">%1$d lessons</string>
+    <string name="continue_button">Continue</string>
+    <string name="details_title">Course Details</string>
+    <string name="back_button">← Back</string>
+    <string name="current_progress_format">Current Progress: %1$d%%</string>
+    <string name="lessons_header">Lessons</string>
+    <string name="lesson_completed">✓ Completed</string>
+    <string name="lesson_pending">○ Pending</string>
+    <string name="logout_button">Logout</string>
+</resources>
